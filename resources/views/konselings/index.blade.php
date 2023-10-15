@@ -9,9 +9,12 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="shortcut icon" href="assets/logoblack.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
-    <title>List Konseling</title>
+    <title>Dashboard Admin</title>
 </head>
 <body>
+    <h2>Admin Dashboard</h2>
+    <a class="btn btn-success" href="{{ url('/admin/artikel') }}">List Artikel</a>
+    <a class="btn btn-success" href="{{ url('/admin/konseling') }}">List Konseling</a>
     <div class="container" style="margin: 5%">
         <div>
             <h2>LIST KONSELING</h2>
