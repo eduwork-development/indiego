@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <title>Admin</title>
 </head>
-<body>
-    <div class="container">
+<body style="background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url('../assets/konseling.jpeg');background-size: cover; ">
+    <div style="margin:auto; padding:5%; max-width:1000px">
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="card">
@@ -22,7 +22,7 @@
                         <form method="POST" action="{{ route('admin.login.submit') }}">
                             @csrf
     
-                            <div class="form-group">
+                            <div class="form-group" style="margin-bottom: 3%">
                                 <label for="email">{{ __('E-Mail Address') }}</label>
                                 <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autofocus>
                                 @error('email')
@@ -32,7 +32,7 @@
                                 @enderror
                             </div>
     
-                            <div class="form-group">
+                            <div class="form-group" style="margin-bottom: 3%">
                                 <label for="password">{{ __('Password') }}</label>
                                 <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required>
                                 @error('password')
@@ -42,7 +42,7 @@
                                 @enderror
                             </div>
     
-                            <div class="form-group">
+                            <div class="form-group" style="margin-bottom: 3%">
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
                                     <label class="form-check-label" for="remember">
@@ -52,7 +52,7 @@
                             </div>
     
                             <div class="form-group mb-0">
-                                <button type="submit" class="btn btn-primary">
+                                <button type="submit" class="btn btn-primary" style="align-self: stretch;width: 100%; border-radius:26px;"> 
                                     {{ __('Login') }}
                                 </button>
                             </div>
