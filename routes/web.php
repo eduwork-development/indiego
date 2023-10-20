@@ -18,9 +18,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome', [ArtikelController::class, 'index']);
+// });
+
+Route::get('/', [ArtikelController::class, 'getAllArtikels'])->name('welcome');
 
 // Route::prefix('admin')->group(function () {
 //     Route::get('/login', 'UserController@loginForm')->name('admin.login');
@@ -29,6 +31,8 @@ Route::get('/', function () {
 // });
 Route::get('/admin/login', [UserController::class, 'loginForm'])->name('admin.login');
 Route::post('/admin/login', [UserController::class, 'login'])->name('admin.login.submit');
+Route::get('/admin/reset', [UserController::class, 'resetForm'])->name('admin.reset');
+Route::post('/admin/reset', [UserController::class, 'ubahPassword'])->name('admin.reset.submit');
 Route::get('/admin/konseling', [KonselingController::class, 'index'])->name('konseling.index');
 Route::get('/konseling/create', [KonselingController::class, 'create'])->name('konseling.create');
 Route::post('/konseling', [KonselingController::class, 'store'])->name('konseling.store');

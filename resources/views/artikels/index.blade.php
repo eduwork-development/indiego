@@ -33,7 +33,11 @@
                 <td>{{ ++$i }}</td>
                 <td><img src="/images/{{ $artikel->image }}" width="100px"></td>
                 <td>{{ $artikel->judul }}</td>
-                <td>{{ $artikel->narasi }}</td>
+                <td style="display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+                text-overflow: ellipsis;">{{ $artikel->narasi }}</td>
                 <td>
                     <form action="{{ route('artikel.destroy',$artikel->id) }}" method="POST">
           

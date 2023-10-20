@@ -101,41 +101,28 @@
         </div>
         <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper thumbSwiper2">
           <div class="swiper-wrapper">
+            @foreach ($artikels as $artikel)
             <div class="swiper-slide">
-              <a href="dampak-toxic-parents-pada-psikologi-anak.html"><img src="assets/dampaktoxic.jpg" /></a>
+              <a href="{{ route('artikel.show',$artikel->id) }}" target="_blank"><img src="/images/{{ $artikel->image }}" /></a>
               <div class="caption-swiper">
-                <h3>Dampak Toxic Parents pada Psikologi Anak</h3>
-                <p>Banyak orang tua yang menjadi toxic parent dikarenakan tidak mengerti bagaimana dampak terhadap buah hatinya. <span class="web-caption">Dengan mengerti dampak toxic parent maka kita akan dapat menghentikan kesalahan dalam mendidik.</span></p>
+                <h3>{{ $artikel->judul }}</h3>
+                <p>{{ $artikel->narasi }}</p>
               </div>
             </div>
-            <div class="swiper-slide">
-              <a href="kecemasan-berlebihan-atau-anxiety.html"><img src="assets/tentanganxiety.jpg" /></a>
-              <div class="caption-swiper">
-                <h3>Sering Cemas? Yuk, Kenalan dengan Anxiety</h3>
-                <p>jika kamu mengalami kecemasan secara berlebihan yang hampir membuatmu sudah tidak nyaman <span class="web-caption">dan mengganggu aktifitas keseharian, mungkin sudah saatnya kamu berkenalan dengan <i>“Apa itu Anxiety?”</i></span></p>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <a href="strategi-menghadapi-toxic-parents.html"><img src="assets/strategitoxic.jpg" /></a>
-              <div class="caption-swiper">
-                <h3>Strategi Menghadapi Toxic Parents</h3>
-                <p>Saat ini banyak sekali para remaja atau bahkan orang dewasa yang terganggu mentalnya dikarenakan fenomena toxic parent<span class="web-caption">, namun ada beberapa hal yang dapat dilakukan dalam menghadapi toxic parent.</span></p>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <a href="toxic-parents-monster-masa-depan-anak.html"><img src="assets/toxicparentsmonster.jpg" /></a>
-              <div class="caption-swiper">
-                <h3>Toxic Parents Monster untuk Masa Depan Anak</h3>
-                <p>Dalam dinamika keluarga, peran orang tua memiliki dampak yang signifikan pada perkembangan anak. <span class="web-caption">Namun, terkadang pola hubungan yang tidak sehat antara orang tua dan anak.</span></p>
-              </div>
-            </div>
+            @endforeach
+            
           </div>
           <div class="swiper-button-next"></div>
           <div class="swiper-button-prev"></div>
         </div>
         <div thumbsSlider="" class="swiper galeriSwiper">
           <div class="swiper-wrapper">
+            @foreach ($artikels as $artikel)
             <div class="swiper-slide">
+              <img src="/images/{{ $artikel->image }}">
+            </div>
+            @endforeach
+            {{-- <div class="swiper-slide">
               <img src="assets/dampaktoxic.jpg" />
             </div>
             <div class="swiper-slide">
@@ -146,7 +133,7 @@
             </div>
             <div class="swiper-slide">
               <img src="assets/toxicparentsmonster.jpg" />
-            </div>
+            </div> --}}
           </div>
         </div>
       </div>

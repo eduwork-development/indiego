@@ -20,6 +20,14 @@ class ArtikelController extends Controller
             ->with('i', (request()->input('page', 1) - 1) * 5);
     }
  
+
+    public function getAllArtikels()
+    {
+        $artikels=Artikel::all();
+
+        return view('welcome',compact('artikels'));
+    }
+
     /**
      * Show the form for creating a new resource.
      *

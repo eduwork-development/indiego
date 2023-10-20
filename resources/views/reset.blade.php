@@ -16,10 +16,10 @@
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="card">
-                    <div class="card-header">{{ __('Admin Login') }}</div>
+                    <div class="card-header">{{ __('Reset Password') }}</div>
     
                     <div class="card-body">
-                        <form method="POST" action="{{ route('admin.login.submit') }}">
+                        <form method="POST" action="{{ route('admin.reset.submit') }}">
                             @csrf
     
                             <div class="form-group" style="margin-bottom: 3%">
@@ -42,22 +42,14 @@
                                 @enderror
                             </div>
     
-                            <div class="form-group" style="margin-bottom: 3%">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
-                                    <label class="form-check-label" for="remember">
-                                        {{ __('Remember Me') }}
-                                    </label>
-                                </div>
-                            </div>
+                            
     
                             <div class="form-group mb-0">
                                 <button type="submit" class="btn btn-primary" style="align-self: stretch;width: 100%; border-radius:26px;"> 
-                                    {{ __('Login') }}
+                                    {{ __('Reset Password') }}
                                 </button>
                             </div>
                         </form>
-                        <a href="{{ url('/admin/reset') }}">Ganti Password</a>
                     </div>
                 </div>
             </div>
