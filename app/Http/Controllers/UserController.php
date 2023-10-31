@@ -14,7 +14,7 @@ class UserController extends Controller
     // Display the admin login form
     public function loginForm()
     {
-        return view('login');
+        return view('auth.login');
     }
 
     public function resetForm()
@@ -34,14 +34,21 @@ class UserController extends Controller
     
                 $user->remember_token = hash('sha256', $token);
                 $user->save();
-    
-                return redirect()->route('konseling.index');
+                auth()->login($user);
+                return redirect('/admin/konseling');
             }else {
                 
-                return redirect()->route('admin.login')->withInput($request->only('email', 'remember'))->withErrors(['email' => 'Invalid login credentials']);
+                return redirect()->route('login')->withInput($request->only('email', 'remember'))->withErrors(['email' => 'Invalid login credentials']);
             }
         }
     }  
+
+    public function logout()
+    {
+        Auth::logout();
+        return redirect()->intended('/login');
+    }
+
     
     public function store(Request $request)
     {
@@ -72,7 +79,7 @@ class UserController extends Controller
         if(User::where('email', '=', $resetPW['email'])->first()){
             $user = User::where('email' , '=', $resetPW['email'])->first();
         }else{
-            return redirect()->route('admin.login')->withInput($request->only('email', 'remember'))->withErrors(['email' => 'Email not found']);
+            return redirect()->route('login')->withInput($request->only('email', 'remember'))->withErrors(['email' => 'Email not found']);
         }
         
         $validator = Validator::make($request->all(), [
@@ -88,9 +95,9 @@ class UserController extends Controller
         
             $user->password = bcrypt($request->password);
             if($user->save()){
-                return redirect()->route('admin.login')->withInput($request->only('email', 'remember'));
+                return redirect()->route('login')->withInput($request->only('email', 'remember'));
             }else{
-                return redirect()->route('admin.login')->withInput($request->only('email', 'remember'));
+                return redirect()->route('login')->withInput($request->only('email', 'remember'));
             }
         
     }

@@ -19,7 +19,7 @@
                     <div class="card-header">{{ __('Reset Password') }}</div>
     
                     <div class="card-body">
-                        <form method="POST" action="{{ route('admin.reset.submit') }}">
+                        <form method="POST" action="{{ route('reset.submit') }}">
                             @csrf
     
                             <div class="form-group" style="margin-bottom: 3%">

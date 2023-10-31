@@ -60,6 +60,15 @@
               </p>
             </a>
           </li>
+          <li class="nav-item">
+            <a href="/logout" class="nav-link">
+              
+              <p>
+                 Logout
+               
+              </p>
+            </a>
+          </li>
         </ul>
       </nav>
       <!-- /.sidebar-menu -->
