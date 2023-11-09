@@ -3,6 +3,7 @@
 use App\Http\Controllers\ArtikelController;
 use App\Http\Controllers\KonselingController;
 use App\Http\Controllers\UserController;
+use App\Models\Konseling;
 use Illuminate\Support\Facades\Route;
 
 
@@ -34,13 +35,15 @@ Route::post('/admin/login', [UserController::class, 'login'])->name('login.submi
 Route::get('/admin/reset', [UserController::class, 'resetForm'])->name('reset');
 Route::post('/admin/reset', [UserController::class, 'ubahPassword'])->name('reset.submit');
 Route::get('/konseling/create', [KonselingController::class, 'create'])->name('konseling.create');
+Route::get('/konseling/sukses', [KonselingController::class, 'suksesOrder'])->name('konseling.sukses');
 Route::get('/artikel/show/{artikel}', [ArtikelController::class, 'show'])->name('artikel.show');
+Route::post('/konseling', [KonselingController::class, 'store'])->name('konseling.store');
 
 
 Route::middleware('auth')->group(function(){
     Route::get('/logout',[UserController::class,'logout']);
     Route::get('/admin/konseling', [KonselingController::class, 'index'])->name('konseling.index');
-    Route::post('/konseling', [KonselingController::class, 'store'])->name('konseling.store');
+   
     Route::get('admin/konseling/{konseling}/edit', [KonselingController::class, 'edit'])->name('konseling.edit');
     Route::put('/konseling/{konseling}/update', [KonselingController::class, 'update'])->name('konseling.update');
     Route::delete('/konseling/{konseling}/destroy', [KonselingController::class, 'destroy'])->name('konseling.destroy');

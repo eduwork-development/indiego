@@ -28,7 +28,7 @@
               <a class="nav-link" href="#testimoni">Testimoni</a>
               <a class="nav-link" href="#galeri">Galeri</a>
               <a class="nav-link" href="#paket">Paket</a>
-              <a class="nav-link" href="#footer">Hubungi Kami</a>
+              <a class="nav-link" href="https://wa.me/+6289680758385">Hubungi Kami</a>
             </div>
           </div>
         </div>
@@ -46,7 +46,14 @@
                     <p>
                       Ruang untuk dapat lebih mengerti tentang gambaran diri, yang sering tidak kita sadari dikarenakan banyaknya distraksi serta ambisi diri yang membuat kita kurang memahami kebutuhan diri.
                     </p> 
+                    <a href="{{route('konseling.create')}}" type="button" class="btn btn-light" style="
+                      padding: 20px 25px;
+                      font-size: 22px;
+                      border-radius: 10px;
+                      margin-top:52px;
+                  ">Trial Konsultasi Gratis</a>
                   </div>
+                 
                 </div>
                 <div class="swiper-slide">
                   <img class="img-banner" src="assets/banner1.jpg" alt="">
@@ -56,6 +63,12 @@
                     <p>
                       Alur hidup yang dilalui oleh setiap individu akan menciptakan keunikan potensi. Memahami alam bawah sadar yang terbentuk oleh alur hidup akan dapat merubah negative behaviour dalam diri untuk menjadi potensi unik yang juga merupakan value diri.
                     </p> 
+                    <a href="{{route('konseling.create')}}" type="button" class="btn btn-light" style="
+                      padding: 20px 25px;
+                      font-size: 22px;
+                      border-radius: 10px;
+                      margin-top:52px;
+                  ">Trial Konsultasi Gratis</a>
                   </div>
                 </div>
                 <div class="swiper-slide">
@@ -66,6 +79,12 @@
                     <p>
                       Buah hati bagaikan bayangan dari pantulan cermin disekitarnya Sudahkah kita memahami Mengenali jenis cermin yang mereka gunakan akan dapat mengerti bagaimana wujud bayangan yang dihasilkan.
                     </p> 
+                    <a href="{{route('konseling.create')}}" type="button" class="btn btn-light" style="
+                      padding: 20px 25px;
+                      font-size: 22px;
+                      border-radius: 10px;
+                      margin-top:52px;
+                  ">Trial Konsultasi Gratis</a>
                   </div>
                 </div>
                 <div class="swiper-slide">
@@ -76,6 +95,12 @@
                     <p>
                       Ilmu mengenai psikologi saat ini sangat mudah untuk diakses, sehingga banyak calon Apakah perusahaanmu salah satu yang pernah terkecoh? Tertarik mencoba dengan metode sixsence? Analisis berdasarkan sixsence merupakan keahlian kami dalam rekrutmen maupun pengembangan human resource.
                     </p> 
+                    <a href="{{route('konseling.create')}}" type="button" class="btn btn-light" style="
+                      padding: 20px 25px;
+                      font-size: 22px;
+                      border-radius: 10px;
+                      margin-top:52px;
+                  ">Trial Konsultasi Gratis</a>
                   </div>
                 </div>
                 <div class="swiper-slide">
@@ -86,6 +111,12 @@
                     <p>
                       Beberapa Agama dan budaya mengajarkan hal mengenai properti berhati - hati dalam memiliki properti sebagai aset diri karena bisa jadi properti yang kita akan miliki berenergi negatif Ubah keberuntungan bisa melalui properti, tertarik?
                     </p> 
+                    <a href="{{route('konseling.create')}}" type="button" class="btn btn-light" style="
+                      padding: 20px 25px;
+                      font-size: 22px;
+                      border-radius: 10px;
+                      margin-top:52px;
+                  ">Trial Konsultasi Gratis</a>
                   </div>
                 </div>
             </div>

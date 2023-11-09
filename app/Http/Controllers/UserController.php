@@ -22,6 +22,8 @@ class UserController extends Controller
         return view('reset');
     }
 
+    
+
     // Handle the admin login
     public function login(Request $request)
     {

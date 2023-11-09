@@ -12,9 +12,15 @@ class KonselingController extends Controller
         
     }
 
+    public function suksesOrder()
+    {
+        return view('suksesorder');
+    }
+
     public function create(){
         return view('konselings.create');
     }
+
 
     public function store(Request $request){
         $data = $request->validate([
@@ -29,7 +35,7 @@ class KonselingController extends Controller
 
         Konseling::create($data);
 
-        return redirect('/');
+        return redirect('/konseling/sukses');
 
     }
 
