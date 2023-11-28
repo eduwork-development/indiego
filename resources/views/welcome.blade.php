@@ -46,12 +46,7 @@
                     <p>
                       Ruang untuk dapat lebih mengerti tentang gambaran diri, yang sering tidak kita sadari dikarenakan banyaknya distraksi serta ambisi diri yang membuat kita kurang memahami kebutuhan diri.
                     </p> 
-                    <a href="{{route('konseling.create')}}" type="button" class="btn btn-light" style="
-                      padding: 20px 25px;
-                      font-size: 22px;
-                      border-radius: 10px;
-                      margin-top:52px;
-                  ">Trial Konsultasi Gratis</a>
+                    <a href="{{route('konseling.create')}}" type="button" class="btn btn-light cta-hero" >Trial Konsultasi Gratis</a>
                   </div>
                  
                 </div>
@@ -63,12 +58,7 @@
                     <p>
                       Alur hidup yang dilalui oleh setiap individu akan menciptakan keunikan potensi. Memahami alam bawah sadar yang terbentuk oleh alur hidup akan dapat merubah negative behaviour dalam diri untuk menjadi potensi unik yang juga merupakan value diri.
                     </p> 
-                    <a href="{{route('konseling.create')}}" type="button" class="btn btn-light" style="
-                      padding: 20px 25px;
-                      font-size: 22px;
-                      border-radius: 10px;
-                      margin-top:52px;
-                  ">Trial Konsultasi Gratis</a>
+                    <a href="{{route('konseling.create')}}" type="button" class="btn btn-light cta-hero" >Trial Konsultasi Gratis</a>
                   </div>
                 </div>
                 <div class="swiper-slide">
@@ -79,12 +69,7 @@
                     <p>
                       Buah hati bagaikan bayangan dari pantulan cermin disekitarnya Sudahkah kita memahami Mengenali jenis cermin yang mereka gunakan akan dapat mengerti bagaimana wujud bayangan yang dihasilkan.
                     </p> 
-                    <a href="{{route('konseling.create')}}" type="button" class="btn btn-light" style="
-                      padding: 20px 25px;
-                      font-size: 22px;
-                      border-radius: 10px;
-                      margin-top:52px;
-                  ">Trial Konsultasi Gratis</a>
+                    <a href="{{route('konseling.create')}}" type="button" class="btn btn-light cta-hero" >Trial Konsultasi Gratis</a>
                   </div>
                 </div>
                 <div class="swiper-slide">
@@ -95,12 +80,7 @@
                     <p>
                       Ilmu mengenai psikologi saat ini sangat mudah untuk diakses, sehingga banyak calon Apakah perusahaanmu salah satu yang pernah terkecoh? Tertarik mencoba dengan metode sixsence? Analisis berdasarkan sixsence merupakan keahlian kami dalam rekrutmen maupun pengembangan human resource.
                     </p> 
-                    <a href="{{route('konseling.create')}}" type="button" class="btn btn-light" style="
-                      padding: 20px 25px;
-                      font-size: 22px;
-                      border-radius: 10px;
-                      margin-top:52px;
-                  ">Trial Konsultasi Gratis</a>
+                    <a href="{{route('konseling.create')}}" type="button" class="btn btn-light cta-hero" >Trial Konsultasi Gratis</a>
                   </div>
                 </div>
                 <div class="swiper-slide">
@@ -111,12 +91,7 @@
                     <p>
                       Beberapa Agama dan budaya mengajarkan hal mengenai properti berhati - hati dalam memiliki properti sebagai aset diri karena bisa jadi properti yang kita akan miliki berenergi negatif Ubah keberuntungan bisa melalui properti, tertarik?
                     </p> 
-                    <a href="{{route('konseling.create')}}" type="button" class="btn btn-light" style="
-                      padding: 20px 25px;
-                      font-size: 22px;
-                      border-radius: 10px;
-                      margin-top:52px;
-                  ">Trial Konsultasi Gratis</a>
+                    <a href="{{route('konseling.create')}}" type="button" class="btn btn-light cta-hero" >Trial Konsultasi Gratis</a>
                   </div>
                 </div>
             </div>
@@ -316,6 +291,8 @@
     <section id="galeri">
       <div class="container">
           <h3>Galeri Indiego</h3>
+          <p>Setiap individu memiliki alur cerita yang unik, dan menarik untuk disimak.
+Galery ini merupakan kumpulan hasil konseling beberapa Sahabat Diego dengan menggunakan metode sixsence yang kemudian diilustrasikan sebagai gambaran diri mereka. Dengan menampilkan beberapa ilustrasi tersebut, berharap kita bisa mengambil pembelajaran dari perjalanannya.</p>
           <hr>
       </div>
         <div class="img-galeri">
@@ -363,48 +340,90 @@
           </a>
         </div>
       
-      <a href="#galeri" class="lightbox" id="img1">
-        <span style="background-image: url('assets/galeri1.jpg')"></span>
+        <a href="#galeri" class="lightbox" id="img1" style="text-decoration: none;">
+          <div class="lightbox-content">
+              <span style="background-image: url('assets/galeri1.jpg')"></span>
+              <p>Galeri Indiego.</p>
+          </div>
       </a>
-      <a href="#galeri" class="lightbox" id="img2">
-        <span style="background-image: url('assets/galeri2.jpg')"></span>
-      </a>
-      <a href="#galeri" class="lightbox" id="img3">
-        <span style="background-image: url('assets/galeri3.jpg')"></span>
-      </a>
-      <a href="#galeri" class="lightbox" id="img4">
+      <a href="#galeri" class="lightbox" id="img2" style="text-decoration: none;">
+        <div class="lightbox-content">
+            <span style="background-image: url('assets/galeri2.jpg')"></span>
+            <p>Galeri Indiego.</p>
+        </div>
+    </a>
+    <a href="#galeri" class="lightbox" id="img3" style="text-decoration: none;">
+      <div class="lightbox-content">
+          <span style="background-image: url('assets/galeri3.jpg')"></span>
+          <p>Galeri Indiego.</p>
+      </div>
+  </a>
+  <a href="#galeri" class="lightbox" id="img4" style="text-decoration: none;">
+    <div class="lightbox-content">
         <span style="background-image: url('assets/galeri4.jpg')"></span>
-      </a>
-      <a href="#galeri" class="lightbox" id="img5">
-        <span style="background-image: url('assets/galeri5.jpg')"></span>
-      </a>
-      <a href="#galeri" class="lightbox" id="img6">
-        <span style="background-image: url('assets/galeri6.jpg')"></span>
-      </a>
-      <a href="#galeri" class="lightbox" id="img7">
-        <span style="background-image: url('assets/galeri7.jpg')"></span>
-      </a>
-      <a href="#galeri" class="lightbox" id="img8">
-        <span style="background-image: url('assets/galeri8.jpg')"></span>
-      </a>
-      <a href="#galeri" class="lightbox" id="img9">
-        <span style="background-image: url('assets/galeri9.jpg')"></span>
-      </a>
-      <a href="#galeri" class="lightbox" id="img10">
-        <span style="background-image: url('assets/galeri10.jpg')"></span>
-      </a>
-      <a href="#galeri" class="lightbox" id="img11">
-        <span style="background-image: url('assets/galeri11.jpg')"></span>
-      </a>
-      <a href="#galeri" class="lightbox" id="img12">
-        <span style="background-image: url('assets/galeri12.jpg')"></span>
-      </a>
-      <a href="#galeri" class="lightbox" id="img13">
-        <span style="background-image: url('assets/galeri13.jpg')"></span>
-      </a>
-      <a href="#galeri" class="lightbox" id="img14">
-        <span style="background-image: url('assets/galeri14.jpg')"></span>
-      </a>
+        <p>Galeri Indiego.</p>
+    </div>
+</a>
+<a href="#galeri" class="lightbox" id="img5" style="text-decoration: none;">
+  <div class="lightbox-content">
+      <span style="background-image: url('assets/galeri5.jpg')"></span>
+      <p>Galeri Indiego.</p>
+  </div>
+</a>
+<a href="#galeri" class="lightbox" id="img6" style="text-decoration: none;">
+  <div class="lightbox-content">
+      <span style="background-image: url('assets/galeri6.jpg')"></span>
+      <p>Galeri Indiego.</p>
+  </div>
+</a>
+<a href="#galeri" class="lightbox" id="img7" style="text-decoration: none;">
+  <div class="lightbox-content">
+      <span style="background-image: url('assets/galeri7.jpg')"></span>
+      <p>Galeri Indiego.</p>
+  </div>
+</a>
+<a href="#galeri" class="lightbox" id="img8" style="text-decoration: none;">
+  <div class="lightbox-content">
+      <span style="background-image: url('assets/galeri8.jpg')"></span>
+      <p>Galeri Indiego.</p>
+  </div>
+</a>
+<a href="#galeri" class="lightbox" id="img9" style="text-decoration: none;">
+  <div class="lightbox-content">
+      <span style="background-image: url('assets/galeri9.jpg')"></span>
+      <p>Galeri Indiego.</p>
+  </div>
+</a>
+<a href="#galeri" class="lightbox" id="img10" style="text-decoration: none;">
+  <div class="lightbox-content">
+      <span style="background-image: url('assets/galeri10.jpg')"></span>
+      <p>Galeri Indiego.</p>
+  </div>
+</a>
+<a href="#galeri" class="lightbox" id="img11" style="text-decoration: none;">
+  <div class="lightbox-content">
+      <span style="background-image: url('assets/galeri11.jpg')"></span>
+      <p>Galeri Indiego.</p>
+  </div>
+</a>
+<a href="#galeri" class="lightbox" id="img12" style="text-decoration: none;">
+  <div class="lightbox-content">
+      <span style="background-image: url('assets/galeri12.jpg')"></span>
+      <p>Galeri Indiego.</p>
+  </div>
+</a>
+<a href="#galeri" class="lightbox" id="img13" style="text-decoration: none;">
+  <div class="lightbox-content">
+      <span style="background-image: url('assets/galeri13.jpg')"></span>
+      <p>Galeri Indiego.</p>
+  </div>
+</a>
+<a href="#galeri" class="lightbox" id="img14" style="text-decoration: none;">
+  <div class="lightbox-content">
+      <span style="background-image: url('assets/galeri14.jpg')"></span>
+      <p>Galeri Indiego.</p>
+  </div>
+</a>
     </section>
 
     <section id="paket">
@@ -416,7 +435,7 @@
         <div class="flex">
           <div class="card mb-3 " style="max-width: 1540px; border-radius:16px">
             <div class="row g-0" >
-              <div class="col-md-4 position-relative roundedpic" style="background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url('assets/konseling.jpeg');background-size: cover; background-repeat: no-repeat; height:230px">
+              <div class="col-md-4 position-relative roundedpic service1-web" >
                <div class="position-absolute top-50 start-50 translate-middle"><p class="text-white fs-3 " style="font-weight: 300" >Konseling</p></div>
               </div>
               <div class="col-md-8 roundedcontent" style="background-color: rgb(40, 40, 40) ; ">
@@ -430,6 +449,34 @@
                   line-height: 48px; /* 170.588% */
                   margin-bottom:40px">“ Dalam pengembangan diri kita perlu permasalahan dan kebutuhan dasar. Cara untuk memperolehnya, Indiego akan melakukan ”</p>
 
+                  <div class="list-service">
+                    <div>
+                      <ul>
+                        <li>Sketsa ilustrasi karakter keadaan diri</li>
+                        <li>Lukisan karakter keadaan diri</li>
+                        <li>Konsultasi daring/ luring
+                            <ul>
+                                <li>konseling pasangan</li>
+                                <li>konseling keluarga</li>
+                                <li>konsultasi karir</li>
+                                <li>pengembangan diri</li>
+                                <li>kesehatan mental</li>
+                            </ul>
+                        </li>
+                      </ul>
+                    </div>
+                    <div>
+                      <ul>
+                        <li>Pelatihan terapi mandiri</li>
+                        <li>Afirmasi positif</li>
+                        <li>Terapi energi positif</li>
+                        <li>Monitoring daring</li>
+                        <li>Purifikasi energi negatif</li>
+                    </ul>
+                    </div>
+                  </div>
+                  
+
                   <div class="cta" style="
                   display: flex;
                   justify-content: end;
@@ -468,7 +515,7 @@
 
           <div class="card mb-3 " style="max-width: 1540px; border-radius:16px">
             <div class="row g-0" >
-              <div class="col-md-4 position-relative roundedpic" style="background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url('assets/hrdpaket.jpg');background-size: cover; background-repeat: no-repeat; height:230px">
+              <div class="col-md-4 position-relative roundedpic service2-web" >
                <div class="position-absolute top-50 start-50 translate-middle"><p class="text-white fs-3 " style="font-weight: 300" >HRD</p></div>
               </div>
               <div class="col-md-8 roundedcontent" style="background-color: rgb(40, 40, 40) ; ">
@@ -481,7 +528,32 @@
                   font-weight: 500;
                   line-height: 48px; /* 170.588% */
                   margin-bottom:40px">“ Karyawan pintar belum bisa mengembangkan perusahaan, namun menempatkan Karyawan yang tepat memberi dampak yang besar ”</p>
-
+<div class="list-service">
+  <div>
+    <ul>
+      <li>Sketsa ilustrasi karakter keadaan diri</li>
+      <li>Lukisan karakter keadaan diri</li>
+      <li>Konsultasi daring/ luring
+          <ul>
+              <li>konseling pasangan</li>
+              <li>konseling keluarga</li>
+              <li>konsultasi karir</li>
+              <li>pengembangan diri</li>
+              <li>kesehatan mental</li>
+          </ul>
+      </li>
+    </ul>
+  </div>
+  <div>
+    <ul>
+      <li>Pelatihan terapi mandiri</li>
+      <li>Afirmasi positif</li>
+      <li>Terapi energi positif</li>
+      <li>Monitoring daring</li>
+      <li>Purifikasi energi negatif</li>
+  </ul>
+  </div>
+</div>
                   <div class="cta" style="
                   display: flex;
                   justify-content: end;
@@ -520,8 +592,8 @@
 
           <div class="card mb-3 " style="max-width: 1540px; border-radius:16px">
             <div class="row g-0" >
-              <div class="col-md-4 position-relative roundedpic" style="background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url('assets/tumbuhkembang.jpg');background-size: cover; background-repeat: no-repeat; height:230px">
-                <div style=" display:flex; justify-content:center; align-items: center; margin-top:90px"><p class="text-white fs-2 " style="font-weight: 300" style="width: 200px">Tumbuh Kembang Anak</p></div>
+              <div class="col-md-4 position-relative roundedpic service3-web">
+                <div class="text-tengah" style=" display:flex; justify-content:center; align-items: center;"><p class="text-white fs-2 " style="font-weight: 300" style="width: 200px">Tumbuh Kembang Anak</p></div>
               </div>
               <div class="col-md-8 roundedcontent" style="background-color: rgb(40, 40, 40) ; ">
                 <div class="card-body">
@@ -533,7 +605,32 @@
                   font-weight: 500;
                   line-height: 48px; /* 170.588% */
                   margin-bottom:40px">“ Tumbuh kembang anak sangat dipengaruhi perasaannya, sayangnya anak belum mampu menceritakannya, Indiego akan membantu dengan ”</p>
-
+<div class="list-service">
+  <div>
+    <ul>
+      <li>Sketsa ilustrasi karakter keadaan diri</li>
+      <li>Lukisan karakter keadaan diri</li>
+      <li>Konsultasi daring/ luring
+          <ul>
+              <li>konseling pasangan</li>
+              <li>konseling keluarga</li>
+              <li>konsultasi karir</li>
+              <li>pengembangan diri</li>
+              <li>kesehatan mental</li>
+          </ul>
+      </li>
+    </ul>
+  </div>
+  <div>
+    <ul>
+      <li>Pelatihan terapi mandiri</li>
+      <li>Afirmasi positif</li>
+      <li>Terapi energi positif</li>
+      <li>Monitoring daring</li>
+      <li>Purifikasi energi negatif</li>
+  </ul>
+  </div>
+</div>
                   <div class="cta" style="
                   display: flex;
                   justify-content: end;
@@ -572,8 +669,8 @@
 
           <div class="card mb-3 " style="max-width: 1540px; border-radius:16px">
             <div class="row g-0" >
-              <div class="col-md-4 position-relative roundedpic" style="background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url('assets/properti.jpg');background-size: cover; background-repeat: no-repeat; height:230px">
-               <div style=" display:flex; justify-content:center; align-items: center; margin-top:90px"><p class="text-white fs-2 " style="font-weight: 300" style="width: 200px">Konsultasi Properti</p></div>
+              <div class="col-md-4 position-relative roundedpic service4-web">
+               <div class="text-tengah" style=" display:flex; justify-content:center; align-items: center;"><p class="text-white fs-2 " style="font-weight: 300" style="width: 200px">Konsultasi Properti</p></div>
               </div>
               <div class="col-md-8 roundedcontent" style="background-color: rgb(40, 40, 40) ; ">
                 <div class="card-body">
@@ -585,7 +682,32 @@
                   font-weight: 500;
                   line-height: 48px; /* 170.588% */
                   margin-bottom:40px">“ Pencarian dan pengoptimalan energi positif properti merupakan goals Dari konsultasi properti, dengan melakukan tahapan ”</p>
-
+<div class="list-service">
+  <div>
+    <ul>
+      <li>Sketsa ilustrasi karakter keadaan diri</li>
+      <li>Lukisan karakter keadaan diri</li>
+      <li>Konsultasi daring/ luring
+          <ul>
+              <li>konseling pasangan</li>
+              <li>konseling keluarga</li>
+              <li>konsultasi karir</li>
+              <li>pengembangan diri</li>
+              <li>kesehatan mental</li>
+          </ul>
+      </li>
+    </ul>
+  </div>
+  <div>
+    <ul>
+      <li>Pelatihan terapi mandiri</li>
+      <li>Afirmasi positif</li>
+      <li>Terapi energi positif</li>
+      <li>Monitoring daring</li>
+      <li>Purifikasi energi negatif</li>
+  </ul>
+  </div>
+</div>
                   <div class="cta" style="
                   display: flex;
                   justify-content: end;

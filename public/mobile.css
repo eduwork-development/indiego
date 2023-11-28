@@ -299,13 +299,31 @@
         display: block;
     }
 
-    #galeri .lightbox span {
+    #galeri .lightbox-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 120%; /* Adjust the width as needed */
+        height: 70%; /* Adjust the height as needed */
+        margin: 70px auto 70px -25px; /* Center vertically and horizontally */
+        background-color: white;
+        color: black;
+        text-align: center;
+        padding: 15px;
+    }
+
+    #galeri .lightbox-content span {
         display: block;
         width: 100%;
-        height: 100%;
+        height: 100%; /* Adjust the height for the image */
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
+    }
+
+    #galeri .lightbox-content p {
+        margin-top: 10px; /* Adjust the margin as needed */
     }
 
     #galeri hr {
@@ -468,5 +486,79 @@
         font-size: small;
         font-style: italic;
         margin-bottom: 5vh;
+    }
+
+    .service1-web {
+        background-image: linear-gradient(
+                0deg,
+                rgba(0, 0, 0, 0.5) 0%,
+                rgba(0, 0, 0, 0.5) 100%
+            ),
+            url("assets/konseling.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 230px;
+    }
+
+    .service2-web {
+        background-image: linear-gradient(
+                0deg,
+                rgba(0, 0, 0, 0.5) 0%,
+                rgba(0, 0, 0, 0.5) 100%
+            ),
+            url("assets/hrdpaket.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 230px;
+    }
+
+    .service3-web {
+        background-image: linear-gradient(
+                0deg,
+                rgba(0, 0, 0, 0.5) 0%,
+                rgba(0, 0, 0, 0.5) 100%
+            ),
+            url("assets/tumbuhkembang.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 230px;
+    }
+
+    .service4-web {
+        background-image: linear-gradient(
+                0deg,
+                rgba(0, 0, 0, 0.5) 0%,
+                rgba(0, 0, 0, 0.5) 100%
+            ),
+            url("assets/properti.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 230px;
+    }
+
+    .list-service {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .list-service ul {
+        color: #fff;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 48px; /* 170.588% */
+        margin-bottom: 40px;
+    }
+
+    .text-tengah {
+        margin-top: 90px;
+    }
+
+    .cta-hero {
+        padding: 10px 15px;
+        font-size: 16px;
+        border-radius: 10px;
+        margin-top: -4px;
     }
 }
