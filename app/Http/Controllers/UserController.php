@@ -48,7 +48,7 @@ class UserController extends Controller
     public function logout()
     {
         Auth::logout();
-        return redirect()->intended('/login');
+        return redirect()->intended('/admin/login');
     }
 
     

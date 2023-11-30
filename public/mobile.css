@@ -322,8 +322,10 @@
         background-size: contain;
     }
 
-    #galeri .lightbox-content p {
+    #galeri .lightbox-content li {
         margin-top: 10px; /* Adjust the margin as needed */
+        font-size: 12px;
+        text-align: left;
     }
 
     #galeri hr {

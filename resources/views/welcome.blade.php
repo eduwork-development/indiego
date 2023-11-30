@@ -343,85 +343,183 @@ Galery ini merupakan kumpulan hasil konseling beberapa Sahabat Diego dengan meng
         <a href="#galeri" class="lightbox" id="img1" style="text-decoration: none;">
           <div class="lightbox-content">
               <span style="background-image: url('assets/galeri1.jpg')"></span>
-              <p>Galeri Indiego.</p>
+              <ul>
+                <li>
+                  Berbeda bukan semata berkeinginan menjadi tontonan
+                </li>
+                <li>Namun mencoba untuk menjadi inspirasi sekitar</li>
+                <li>Siapa tau ini awal kebaikan untuk kalian yang berpikiran terbuka</li>
+              </ul>
+              {{-- <p>Galeri Indiego.</p> --}}
           </div>
       </a>
       <a href="#galeri" class="lightbox" id="img2" style="text-decoration: none;">
         <div class="lightbox-content">
             <span style="background-image: url('assets/galeri2.jpg')"></span>
-            <p>Galeri Indiego.</p>
+            <ul>
+                <li>
+                  Berbeda bukan semata berkeinginan menjadi tontonan
+                </li>
+                <li>Namun mencoba untuk menjadi inspirasi sekitar</li>
+                <li>Siapa tau ini awal kebaikan untuk kalian yang berpikiran terbuka</li>
+              </ul>
+              {{-- <p>Galeri Indiego.</p> --}}
         </div>
     </a>
     <a href="#galeri" class="lightbox" id="img3" style="text-decoration: none;">
       <div class="lightbox-content">
           <span style="background-image: url('assets/galeri3.jpg')"></span>
-          <p>Galeri Indiego.</p>
+          <ul>
+                <li>
+                  Berbeda bukan semata berkeinginan menjadi tontonan
+                </li>
+                <li>Namun mencoba untuk menjadi inspirasi sekitar</li>
+                <li>Siapa tau ini awal kebaikan untuk kalian yang berpikiran terbuka</li>
+              </ul>
+              {{-- <p>Galeri Indiego.</p> --}}
       </div>
   </a>
   <a href="#galeri" class="lightbox" id="img4" style="text-decoration: none;">
     <div class="lightbox-content">
         <span style="background-image: url('assets/galeri4.jpg')"></span>
-        <p>Galeri Indiego.</p>
+        <ul>
+                <li>
+                  Berbeda bukan semata berkeinginan menjadi tontonan
+                </li>
+                <li>Namun mencoba untuk menjadi inspirasi sekitar</li>
+                <li>Siapa tau ini awal kebaikan untuk kalian yang berpikiran terbuka</li>
+              </ul>
+              {{-- <p>Galeri Indiego.</p> --}}
     </div>
 </a>
 <a href="#galeri" class="lightbox" id="img5" style="text-decoration: none;">
   <div class="lightbox-content">
       <span style="background-image: url('assets/galeri5.jpg')"></span>
-      <p>Galeri Indiego.</p>
+      <ul>
+                <li>
+                  Berbeda bukan semata berkeinginan menjadi tontonan
+                </li>
+                <li>Namun mencoba untuk menjadi inspirasi sekitar</li>
+                <li>Siapa tau ini awal kebaikan untuk kalian yang berpikiran terbuka</li>
+              </ul>
+              {{-- <p>Galeri Indiego.</p> --}}
   </div>
 </a>
 <a href="#galeri" class="lightbox" id="img6" style="text-decoration: none;">
   <div class="lightbox-content">
       <span style="background-image: url('assets/galeri6.jpg')"></span>
-      <p>Galeri Indiego.</p>
+      <ul>
+                <li>
+                  Berbeda bukan semata berkeinginan menjadi tontonan
+                </li>
+                <li>Namun mencoba untuk menjadi inspirasi sekitar</li>
+                <li>Siapa tau ini awal kebaikan untuk kalian yang berpikiran terbuka</li>
+              </ul>
+              {{-- <p>Galeri Indiego.</p> --}}
   </div>
 </a>
 <a href="#galeri" class="lightbox" id="img7" style="text-decoration: none;">
   <div class="lightbox-content">
       <span style="background-image: url('assets/galeri7.jpg')"></span>
-      <p>Galeri Indiego.</p>
+      <ul>
+                <li>
+                  Berbeda bukan semata berkeinginan menjadi tontonan
+                </li>
+                <li>Namun mencoba untuk menjadi inspirasi sekitar</li>
+                <li>Siapa tau ini awal kebaikan untuk kalian yang berpikiran terbuka</li>
+              </ul>
+              {{-- <p>Galeri Indiego.</p> --}}
   </div>
 </a>
 <a href="#galeri" class="lightbox" id="img8" style="text-decoration: none;">
   <div class="lightbox-content">
       <span style="background-image: url('assets/galeri8.jpg')"></span>
-      <p>Galeri Indiego.</p>
+      <ul>
+                <li>
+                  Berbeda bukan semata berkeinginan menjadi tontonan
+                </li>
+                <li>Namun mencoba untuk menjadi inspirasi sekitar</li>
+                <li>Siapa tau ini awal kebaikan untuk kalian yang berpikiran terbuka</li>
+              </ul>
+              {{-- <p>Galeri Indiego.</p> --}}
   </div>
 </a>
 <a href="#galeri" class="lightbox" id="img9" style="text-decoration: none;">
   <div class="lightbox-content">
       <span style="background-image: url('assets/galeri9.jpg')"></span>
-      <p>Galeri Indiego.</p>
+      <ul>
+                <li>
+                  Berbeda bukan semata berkeinginan menjadi tontonan
+                </li>
+                <li>Namun mencoba untuk menjadi inspirasi sekitar</li>
+                <li>Siapa tau ini awal kebaikan untuk kalian yang berpikiran terbuka</li>
+              </ul>
+              {{-- <p>Galeri Indiego.</p> --}}
   </div>
 </a>
 <a href="#galeri" class="lightbox" id="img10" style="text-decoration: none;">
   <div class="lightbox-content">
       <span style="background-image: url('assets/galeri10.jpg')"></span>
-      <p>Galeri Indiego.</p>
+      <ul>
+                <li>
+                  Berbeda bukan semata berkeinginan menjadi tontonan
+                </li>
+                <li>Namun mencoba untuk menjadi inspirasi sekitar</li>
+                <li>Siapa tau ini awal kebaikan untuk kalian yang berpikiran terbuka</li>
+              </ul>
+              {{-- <p>Galeri Indiego.</p> --}}
   </div>
 </a>
 <a href="#galeri" class="lightbox" id="img11" style="text-decoration: none;">
   <div class="lightbox-content">
       <span style="background-image: url('assets/galeri11.jpg')"></span>
-      <p>Galeri Indiego.</p>
+      <ul>
+                <li>
+                  Berbeda bukan semata berkeinginan menjadi tontonan
+                </li>
+                <li>Namun mencoba untuk menjadi inspirasi sekitar</li>
+                <li>Siapa tau ini awal kebaikan untuk kalian yang berpikiran terbuka</li>
+              </ul>
+              {{-- <p>Galeri Indiego.</p> --}}
   </div>
 </a>
 <a href="#galeri" class="lightbox" id="img12" style="text-decoration: none;">
   <div class="lightbox-content">
       <span style="background-image: url('assets/galeri12.jpg')"></span>
-      <p>Galeri Indiego.</p>
+      <ul>
+                <li>
+                  Berbeda bukan semata berkeinginan menjadi tontonan
+                </li>
+                <li>Namun mencoba untuk menjadi inspirasi sekitar</li>
+                <li>Siapa tau ini awal kebaikan untuk kalian yang berpikiran terbuka</li>
+              </ul>
+              {{-- <p>Galeri Indiego.</p> --}}
   </div>
 </a>
 <a href="#galeri" class="lightbox" id="img13" style="text-decoration: none;">
   <div class="lightbox-content">
       <span style="background-image: url('assets/galeri13.jpg')"></span>
-      <p>Galeri Indiego.</p>
+      <ul>
+                <li>
+                  Berbeda bukan semata berkeinginan menjadi tontonan
+                </li>
+                <li>Namun mencoba untuk menjadi inspirasi sekitar</li>
+                <li>Siapa tau ini awal kebaikan untuk kalian yang berpikiran terbuka</li>
+              </ul>
+              {{-- <p>Galeri Indiego.</p> --}}
   </div>
 </a>
 <a href="#galeri" class="lightbox" id="img14" style="text-decoration: none;">
   <div class="lightbox-content">
       <span style="background-image: url('assets/galeri14.jpg')"></span>
-      <p>Galeri Indiego.</p>
+      <ul>
+                <li>
+                  Berbeda bukan semata berkeinginan menjadi tontonan
+                </li>
+                <li>Namun mencoba untuk menjadi inspirasi sekitar</li>
+                <li>Siapa tau ini awal kebaikan untuk kalian yang berpikiran terbuka</li>
+              </ul>
+              {{-- <p>Galeri Indiego.</p> --}}
   </div>
 </a>
     </section>
