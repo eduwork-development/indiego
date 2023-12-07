@@ -23,7 +23,7 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ms-auto">
-              <a class="nav-link active" aria-current="page" href="index.html">Beranda</a>
+              <a class="nav-link active" aria-current="page" href="{{route('welcome')}}">Beranda</a>
               <a class="nav-link" href="#artikel">Artikel</a>
               <a class="nav-link" href="#testimoni">Testimoni</a>
               <a class="nav-link" href="#galeri">Galeri</a>
@@ -302,7 +302,7 @@ Galery ini merupakan kumpulan hasil konseling beberapa Sahabat Diego dengan meng
           <a href="#img2">
             <img src="assets/galeri2.jpg" alt="">
           </a>
-          <a href="#img3">
+           <a href="#img3">
             <img src="assets/galeri3.jpg" alt="">
           </a>
           <a href="#img4">

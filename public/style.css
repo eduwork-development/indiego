@@ -150,13 +150,11 @@
     background-size: cover;
     background-position: center;
     background-color: var(--secondary-color);
-    filter: drop-shadow(0px 10px 3px black);
 }
 
 #artikel .thumbSwiper2 {
     height: 70vh;
     width: 100%;
-    filter: drop-shadow(0px 10px 3px black);
 }
 
 #artikel .galeriSwiper {
@@ -181,7 +179,6 @@
     height: 100%;
     object-fit: cover;
     opacity: 0.6;
-    filter: drop-shadow(0px 10px 3px black);
 }
 
 #artikel .caption-swiper {
@@ -223,9 +220,9 @@
     margin: 6vh 4vh 0 0;
 }
 
-#testimoni .carousel-left img {
+/* #testimoni .carousel-left img {
     filter: drop-shadow(0px 10px 3px black);
-}
+} */
 
 #testimoni h6 {
     font-size: 14px;
@@ -255,6 +252,8 @@
 
 #galeri {
     margin-top: 10vh;
+    max-width: 1300px;
+    margin: auto;
 }
 
 #galeri h3 {
@@ -262,8 +261,11 @@
 }
 
 #galeri .img-galeri {
-    display: inline-block;
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
 }
 
 #galeri img {

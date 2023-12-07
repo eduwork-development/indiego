@@ -269,7 +269,8 @@
     }
 
     #galeri .img-galeri {
-        display: inline-block;
+        display: flex;
+        flex-wrap: wrap;
         text-align: center;
     }
 
