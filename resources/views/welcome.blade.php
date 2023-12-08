@@ -121,7 +121,7 @@
           <div class="swiper-button-next"></div>
           <div class="swiper-button-prev"></div>
         </div>
-        <div thumbsSlider="" class="swiper galeriSwiper">
+        <div thumbsSlider="" class="swiper galeriSwiper" style="margin-top: -9px">
           <div class="swiper-wrapper">
             @foreach ($artikels as $artikel)
             <div class="swiper-slide">
@@ -151,141 +151,144 @@
           <h3>Testimoni</h3>
         </div>
       </div>
-      <div id="carouselExampleIndicators" class="carousel slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"></button>
+      <div class="testibg">
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"></button>
+          </div>
+          <div class="carousel-inner">
+  
+            <div class="carousel-item active">
+              <div class="container">
+                <div class="testi-slider ">
+                  <div class=" carousel-left">
+                    <img src="assets/Vika.jpg" alt="">
+                  </div>
+                  <div class="carousel-right">
+                    <h5>Vika Matin, <span class="umur">30th</span></h5>
+                    <hr>
+                    <h6>Entrepreneur</h6>
+                    <p class="text-caption">Apa kata Vika tentang kami?</p>
+                    <p class="text-caption">
+                      ”Bingung banget punya anak 2 deketan usia dg segala dramanya tapi sulit nemu solusi tiap masalahnya. takut salah treatment ke anak, karena setiap anak itu berbeda. enak sama diego ga perlu cerita. tinggal pasang muka dia dah beberin semua hal yg kita bahkan ga sadar. thanks mas. u become a solution.”
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="carousel-item">
+              <div class="container">
+                <div class="testi-slider ">
+                  <div class="carousel-left">
+                    <img src="assets/Dean.jpg" alt="">
+                  </div>
+                  <div class="carousel-right">
+                    <h5>Dean, <span class="umur">36th</span></h5>
+                    <hr>
+                    <h6>Architect</h6>
+                    <p class="text-caption">Apa kata Dean tentang kami?</p>
+                    <p class="text-caption">
+                      ”I consult with indiego about many things, ranging from projects, family, friendships, even finances. The counseling is very helpful in making decisions, even though the sharing method is unique to me. We tell a little story and they immediately respond with real time character sketches, what kind of face are we "presenting" which is our condition at that time that will be examined. For those who are curious, please try it, you will be surprised with a "how come he knows" respond and they will hel to find a solution. Good luck for "indiego" through "cerita diego".”
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="carousel-item">
+              <div class="container">
+                <div class="testi-slider ">
+                  <div class=" carousel-left">
+                    <img src="assets/Dienar.jpg" alt="">
+                  </div>
+                  <div class=" carousel-right">
+                    <h5>Dienar, <span class="umur">30th</span></h5>
+                    <hr>
+                    <h6>Enterpreneur</h6>
+                    <p class="text-caption">Apa kata Dienar tentang kami?</p>
+                    <p class="text-caption">
+                      ”Konseling sama Indiego itu enak banget, konseling tapi rasanya kaya curhat ke temen. Pendengar yg sangat baik, solving problem nya tidak menggurui, saran yang diberikan praktikal semua, bukan cuma sekedar teori yg bikin kita bingung harus mulai dari mana. Rasanya nyaman, karena tidak ada judgement, pendekatannya sesuai dengan karakter kita. Dan gak terburu-buru. Selalu menguatkan, bahwa ini semua adalah proses.”
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="carousel-item">
+              <div class="container">
+                <div class="testi-slider ">
+                  <div class=" carousel-left">
+                    <img src="assets/Dhiana.jpg" alt="">
+                  </div>
+                  <div class=" carousel-right">
+                    <h5>Dhiana, <span class="umur">40th</span></h5>
+                    <hr>
+                    <h6>HR & GA manager</h6>
+                    <p class="text-caption">Apa kata Dean tentang kami?</p>
+                    <p class="text-caption">
+                      ”I’m amazed, they can define our personal strengths and weaknesses from facial sketches. So it's easier to develop and focus on the abilities that we have, the gifts from God. Great talent..😃👍👌”  
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="carousel-item">
+              <div class="container">
+                <div class="testi-slider ">
+                  <div class=" carousel-left">
+                    <img src="assets/Ophie.jpg" alt="">
+                  </div>
+                  <div class=" carousel-right">
+                    <h5>Oghie, <span class="umur">33th</span></h5>
+                    <hr>
+                    <h6>Construction Business Owner</h6>
+                    <p class="text-caption">Apa kata Oghie tentang kami?</p>
+                    <p class="text-caption">
+                      "Sebagai owner ada aja hal teknis yang sebenernya gampang tapi sulit ditentukan. Jadi kami punya peluang untuk mengisi jabatan strategis malah bimbang untuk milih siapa yang pas pada posisi tersebut. Alhamdulillah ketemu juga solusinya biar gak puyeng karena pasti ada efeknya jika menempatkan orang yang mungkin pas tapi hasilnya zonk. Makasih loh udah di filter karyawan ku. Jadi gak bimbang naro orang lg ini."  
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="carousel-item">
+              <div class="container">
+                <div class="testi-slider ">
+                  <div class=" carousel-left">
+                    <img src="assets/wira.jpg" alt="">
+                  </div>
+                  <div class=" carousel-right">
+                    <h5>Wira, <span class="umur">25th</span></h5>
+                    <hr>
+                    <h6>Public university staff</h6>
+                    <p class="text-caption">Apa kata Wira tentang kami?</p>
+                    <p class="text-caption">
+                      "As a person who’s currently entering my 20’s, I have to know myself more and discover my best potential. With Diego, I can evolve to a better version of myself. With their sketch, I’m constantly reminded of who I was at that point and what traits of me that can be developed more to reach my best potential. This helps me to achieve more in life as I grow to be the best version of me. Thank you, Diego."  
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-        <div class="carousel-inner">
-
-          <div class="carousel-item active">
-            <div class="container">
-              <div class="row align-items-start">
-                <div class="col-4 col-lg-3 carousel-left">
-                  <img src="assets/Vika.jpg" alt="">
-                </div>
-                <div class="col-6 col-lg-7 carousel-right">
-                  <h5>Vika Matin, <span class="umur">30th</span></h5>
-                  <hr>
-                  <h6>Entrepreneur</h6>
-                  <p class="text-caption">Apa kata Vika tentang kami?</p>
-                  <p class="text-caption">
-                    ”Bingung banget punya anak 2 deketan usia dg segala dramanya tapi sulit nemu solusi tiap masalahnya. takut salah treatment ke anak, karena setiap anak itu berbeda. enak sama diego ga perlu cerita. tinggal pasang muka dia dah beberin semua hal yg kita bahkan ga sadar. thanks mas. u become a solution.”
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="carousel-item">
-            <div class="container">
-              <div class="row align-items-start">
-                <div class="col-4 col-lg-3 carousel-left">
-                  <img src="assets/Dean.jpg" alt="">
-                </div>
-                <div class="col-6 col-lg-7 carousel-right">
-                  <h5>Dean, <span class="umur">36th</span></h5>
-                  <hr>
-                  <h6>Architect</h6>
-                  <p class="text-caption">Apa kata Dean tentang kami?</p>
-                  <p class="text-caption">
-                    ”I consult with indiego about many things, ranging from projects, family, friendships, even finances. The counseling is very helpful in making decisions, even though the sharing method is unique to me. We tell a little story and they immediately respond with real time character sketches, what kind of face are we "presenting" which is our condition at that time that will be examined. For those who are curious, please try it, you will be surprised with a "how come he knows" respond and they will hel to find a solution. Good luck for "indiego" through "cerita diego".”
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="carousel-item">
-            <div class="container">
-              <div class="row align-items-start">
-                <div class="col-4 col-lg-3 carousel-left">
-                  <img src="assets/Dienar.jpg" alt="">
-                </div>
-                <div class="col-6 col-lg-7 carousel-right">
-                  <h5>Dienar, <span class="umur">30th</span></h5>
-                  <hr>
-                  <h6>Enterpreneur</h6>
-                  <p class="text-caption">Apa kata Dienar tentang kami?</p>
-                  <p class="text-caption">
-                    ”Konseling sama Indiego itu enak banget, konseling tapi rasanya kaya curhat ke temen. Pendengar yg sangat baik, solving problem nya tidak menggurui, saran yang diberikan praktikal semua, bukan cuma sekedar teori yg bikin kita bingung harus mulai dari mana. Rasanya nyaman, karena tidak ada judgement, pendekatannya sesuai dengan karakter kita. Dan gak terburu-buru. Selalu menguatkan, bahwa ini semua adalah proses.”
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="carousel-item">
-            <div class="container">
-              <div class="row align-items-start">
-                <div class="col-4 col-lg-3 carousel-left">
-                  <img src="assets/Dhiana.jpg" alt="">
-                </div>
-                <div class="col-6 col-lg-7 carousel-right">
-                  <h5>Dhiana, <span class="umur">40th</span></h5>
-                  <hr>
-                  <h6>HR & GA manager</h6>
-                  <p class="text-caption">Apa kata Dean tentang kami?</p>
-                  <p class="text-caption">
-                    ”I’m amazed, they can define our personal strengths and weaknesses from facial sketches. So it's easier to develop and focus on the abilities that we have, the gifts from God. Great talent..😃👍👌”  
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="carousel-item">
-            <div class="container">
-              <div class="row align-items-start">
-                <div class="col-4 col-lg-3 carousel-left">
-                  <img src="assets/Ophie.jpg" alt="">
-                </div>
-                <div class="col-6 col-lg-7 carousel-right">
-                  <h5>Oghie, <span class="umur">33th</span></h5>
-                  <hr>
-                  <h6>Construction Business Owner</h6>
-                  <p class="text-caption">Apa kata Oghie tentang kami?</p>
-                  <p class="text-caption">
-                    "Sebagai owner ada aja hal teknis yang sebenernya gampang tapi sulit ditentukan. Jadi kami punya peluang untuk mengisi jabatan strategis malah bimbang untuk milih siapa yang pas pada posisi tersebut. Alhamdulillah ketemu juga solusinya biar gak puyeng karena pasti ada efeknya jika menempatkan orang yang mungkin pas tapi hasilnya zonk. Makasih loh udah di filter karyawan ku. Jadi gak bimbang naro orang lg ini."  
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="carousel-item">
-            <div class="container">
-              <div class="row align-items-start">
-                <div class="col-4 col-lg-3 carousel-left">
-                  <img src="assets/wira.jpg" alt="">
-                </div>
-                <div class="col-6 col-lg-7 carousel-right">
-                  <h5>Wira, <span class="umur">25th</span></h5>
-                  <hr>
-                  <h6>Public university staff</h6>
-                  <p class="text-caption">Apa kata Wira tentang kami?</p>
-                  <p class="text-caption">
-                    "As a person who’s currently entering my 20’s, I have to know myself more and discover my best potential. With Diego, I can evolve to a better version of myself. With their sketch, I’m constantly reminded of who I was at that point and what traits of me that can be developed more to reach my best potential. This helps me to achieve more in life as I grow to be the best version of me. Thank you, Diego."  
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
+      
     </section>
 
     <section id="galeri">
@@ -604,35 +607,9 @@ Galery ini merupakan kumpulan hasil konseling beberapa Sahabat Diego dengan meng
                   </div>
                   
 
-                  <div class="cta" style="
-                  display: flex;
-                  justify-content: end;
-                  
-                  align-content:end">
-                    <a href="{{route('konseling.create')}}" class="text-white" style="
-                    display: flex;
-                    width:160px;
-                    padding: 10px 14px;
-                    justify-content: center;
-                    align-items: center;
-                    gap: 10px;
-                    flex-shrink: 0;
-                    border-radius: 100px;
-                    border: 2px solid #FFF;
-                    
-                    ">Konsultasi</a>
-                    <a href="{{route('konseling.create')}}" class="text-dark" style="
-                    display: flex;
-                    width:160px;
-                    padding: 10px 14px;
-                    justify-content: center;
-                    align-items: center;
-                    gap: 10px;
-                    flex-shrink: 0;
-                    border-radius: 100px;
-                    /* border:  solid #FFF; */
-                    background-color:white
-                    ">Order</a>
+                  <div class="cta">
+                    <a href="{{route('konseling.create')}}" class="text-white cta-konsultasi">Konsultasi</a>
+                    <a href="{{route('konseling.create')}}" class="text-dark cta-order" >Order</a>
                   </div>
                   
                 </div>
@@ -681,35 +658,9 @@ Galery ini merupakan kumpulan hasil konseling beberapa Sahabat Diego dengan meng
   </ul>
   </div>
 </div>
-                  <div class="cta" style="
-                  display: flex;
-                  justify-content: end;
-                  
-                  align-content:end">
-                    <a href="{{route('konseling.create')}}" class="text-white" style="
-                    display: flex;
-                    width:160px;
-                    padding: 10px 14px;
-                    justify-content: center;
-                    align-items: center;
-                    gap: 10px;
-                    flex-shrink: 0;
-                    border-radius: 100px;
-                    border: 2px solid #FFF;
-                    
-                    ">Konsultasi</a>
-                    <a href="{{route('konseling.create')}}" class="text-dark" style="
-                    display: flex;
-                    width:160px;
-                    padding: 10px 14px;
-                    justify-content: center;
-                    align-items: center;
-                    gap: 10px;
-                    flex-shrink: 0;
-                    border-radius: 100px;
-                    /* border:  solid #FFF; */
-                    background-color:white
-                    ">Order</a>
+                 <div class="cta">
+                    <a href="{{route('konseling.create')}}" class="text-white cta-konsultasi">Konsultasi</a>
+                    <a href="{{route('konseling.create')}}" class="text-dark cta-order" >Order</a>
                   </div>
                   
                 </div>
@@ -758,35 +709,9 @@ Galery ini merupakan kumpulan hasil konseling beberapa Sahabat Diego dengan meng
   </ul>
   </div>
 </div>
-                  <div class="cta" style="
-                  display: flex;
-                  justify-content: end;
-                  
-                  align-content:end">
-                    <a href="{{route('konseling.create')}}" class="text-white" style="
-                    display: flex;
-                    width:160px;
-                    padding: 10px 14px;
-                    justify-content: center;
-                    align-items: center;
-                    gap: 10px;
-                    flex-shrink: 0;
-                    border-radius: 100px;
-                    border: 2px solid #FFF;
-                    
-                    ">Konsultasi</a>
-                    <a href="{{route('konseling.create')}}" class="text-dark" style="
-                    display: flex;
-                    width:160px;
-                    padding: 10px 14px;
-                    justify-content: center;
-                    align-items: center;
-                    gap: 10px;
-                    flex-shrink: 0;
-                    border-radius: 100px;
-                    /* border:  solid #FFF; */
-                    background-color:white
-                    ">Order</a>
+                 <div class="cta">
+                    <a href="{{route('konseling.create')}}" class="text-white cta-konsultasi">Konsultasi</a>
+                    <a href="{{route('konseling.create')}}" class="text-dark cta-order" >Order</a>
                   </div>
                   
                 </div>
@@ -835,35 +760,9 @@ Galery ini merupakan kumpulan hasil konseling beberapa Sahabat Diego dengan meng
   </ul>
   </div>
 </div>
-                  <div class="cta" style="
-                  display: flex;
-                  justify-content: end;
-                  
-                  align-content:end">
-                    <a href="{{route('konseling.create')}}" class="text-white" style="
-                    display: flex;
-                    width:160px;
-                    padding: 10px 14px;
-                    justify-content: center;
-                    align-items: center;
-                    gap: 10px;
-                    flex-shrink: 0;
-                    border-radius: 100px;
-                    border: 2px solid #FFF;
-                    
-                    ">Konsultasi</a>
-                    <a href="{{route('konseling.create')}}" class="text-dark" style="
-                    display: flex;
-                    width:160px;
-                    padding: 10px 14px;
-                    justify-content: center;
-                    align-items: center;
-                    gap: 10px;
-                    flex-shrink: 0;
-                    border-radius: 100px;
-                    /* border:  solid #FFF; */
-                    background-color:white
-                    ">Order</a>
+                 <div class="cta">
+                    <a href="{{route('konseling.create')}}" class="text-white cta-konsultasi">Konsultasi</a>
+                    <a href="{{route('konseling.create')}}" class="text-dark cta-order" >Order</a>
                   </div>
                   
                 </div>

@@ -122,7 +122,7 @@
     }
 
     #banner .img-banner {
-        height: 70vh;
+        height: 75vh;
         z-index: -1;
         opacity: 0.2;
         width: 100%;
@@ -225,16 +225,18 @@
     }
 
     #testimoni .carousel-left {
-        margin: 3vh 2vw 4vh 2vw;
+        margin-left: 25px;
+        margin-right: auto;
     }
 
     #testimoni .carousel-right {
-        margin: 3vh 1vw 4vh 2vw;
+        margin-top: -30px;
+        margin-bottom: 30px;
+        max-width: 750px;
     }
 
     #testimoni .carousel-left img {
-        width: 120%;
-        filter: drop-shadow(0px 10px 3px black);
+        width: 100%;
     }
 
     #testimoni h6 {
@@ -258,6 +260,22 @@
         width: 100%;
     }
 
+    #testimoni .testi-web-img {
+        flex: 0 0 25%; /* 25% width on all devices */
+        flex-basis: 33.3333%; /* 33.3333% width on large screens (lg) and above */
+    }
+
+    #testimoni .testi-web-content {
+        flex: 0 0 50%; /* 50% width on all devices */
+        flex-basis: 58.3333%; /* 58.3333% width on large screens (lg) and above */
+    }
+
+    .testi-slider {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
     /* Galeri */
 
     #galeri {
@@ -277,11 +295,11 @@
     #galeri .img-galeri img {
         width: 15vh;
         margin: 5px;
-        filter: drop-shadow(0px 1px 3px black);
+        filter: drop-shadow(0px 1px 3px rgb(129, 129, 129));
     }
 
     #galeri img:hover {
-        filter: drop-shadow(0px 5px 3px black);
+        filter: drop-shadow(0px 5px 3px rgb(143, 143, 143));
     }
 
     #galeri .lightbox {
@@ -394,7 +412,36 @@
     }
 
     #paket .cta {
-        gap: 5px;
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+
+    #paket .cta-konsultasi {
+        display: flex;
+        width: 100%;
+        padding: 10px 14px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0;
+        border-radius: 100px;
+        border: 2px solid #fff;
+    }
+
+    #paket .cta-order {
+        display: flex;
+        width: 100%;
+        padding: 10px 14px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0;
+        border-radius: 100px;
+        /* border:  solid #FFF; */
+        background-color: white;
     }
 
     #paket .card-footer {
@@ -581,7 +628,7 @@
 
     .cta-hero {
         padding: 10px 15px;
-        font-size: 16px;
+        font-size: 13px;
         border-radius: 10px;
         margin-top: -4px;
     }

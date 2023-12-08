@@ -188,6 +188,11 @@
 }
 
 /* testimoni */
+.testibg {
+    margin: auto;
+    height: 100%;
+    background-color: var(--secondary-color);
+}
 
 #testimoni {
     margin-top: 10vh;
@@ -198,7 +203,10 @@
 }
 
 #testimoni #carouselExampleIndicators {
+    margin: auto;
+
     height: 100%;
+    max-width: 1414px;
     background-color: var(--secondary-color);
 }
 
@@ -214,10 +222,28 @@
 
 #testimoni .carousel-left {
     margin: 6vh 0 2vh 4vw;
+    max-width: 350px;
 }
 
 #testimoni .carousel-right {
     margin: 6vh 4vh 0 0;
+    max-width: 750px;
+}
+
+#testimoni .testi-web-img {
+    flex: 0 0 25%; /* 25% width on all devices */
+    flex-basis: 33.3333%; /* 33.3333% width on large screens (lg) and above */
+}
+
+#testimoni .testi-web-content {
+    flex: 0 0 50%; /* 50% width on all devices */
+    flex-basis: 58.3333%; /* 58.3333% width on large screens (lg) and above */
+}
+
+.testi-slider {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
 }
 
 /* #testimoni .carousel-left img {
@@ -266,16 +292,18 @@
     flex-wrap: wrap;
     margin: auto;
     justify-content: center;
+    gap: 15px;
+    padding: 0%;
 }
 
 #galeri img {
     width: 25vh;
     margin: 5px;
-    filter: drop-shadow(0px 1px 3px black);
+    filter: drop-shadow(0px 1px 3px rgb(129, 129, 129));
 }
 
 #galeri img:hover {
-    filter: drop-shadow(0px 5px 3px black);
+    filter: drop-shadow(0px 5px 3px rgb(143, 143, 143));
 }
 
 #galeri .lightbox {
@@ -383,6 +411,34 @@
 }
 #paket .cta {
     gap: 25px;
+    display: flex;
+    justify-content: end;
+    align-content: end;
+}
+
+#paket .cta-konsultasi {
+    display: flex;
+    width: 160px;
+    padding: 10px 14px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    border: 2px solid #fff;
+}
+
+#paket .cta-order {
+    display: flex;
+    width: 160px;
+    padding: 10px 14px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    /* border:  solid #FFF; */
+    background-color: white;
 }
 
 #paket .card-footer {
